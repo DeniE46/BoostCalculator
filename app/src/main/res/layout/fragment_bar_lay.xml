@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:id ="@+id/bar_lay" android:background="@drawable/tile_bg"
+    >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:hint="enter psi to convert"
+        android:textAlignment="center"
+         />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/button2"
+        android:background="@drawable/btn_icon_left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:hint="bar output"
+        android:textAlignment="center"
+        android:textColor="#016fff"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PSI to BAR"
+        android:id="@+id/textView5"
+        android:background="#55050404"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

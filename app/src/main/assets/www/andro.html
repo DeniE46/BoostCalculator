@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+ ::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+ }
+ </style>
+<input style ="background-color: rgba(0,0,0,0.1); width: 140px; border:1px solid #000000;" placeholder="Horsepower" type="number" id="a"> <br>
+<input style ="background-color: rgba(0,0,0,0.1); width: 140px; border:1px solid #000000;" placeholder="Weight(kg)" type="number" id="b"> <br>
+<button style ="background-color: rgba(0,0,0,0.1); border:1px solid #000000; width: 142px;" onClick="res()">Result</button>
+
+<script>
+function res(){
+ var a = parseInt(document.getElementById("a").value);
+  var b = parseInt(document.getElementById("b").value);
+  var sum =  a / b;
+alert(sum + " power to weight ratio NOTE: Results may differ for different vehicles");
+}
+</script>
+</body>
+</html>
